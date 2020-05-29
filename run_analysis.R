@@ -21,7 +21,7 @@ if (!file.exists(filename)){
 }  
 
 # Checking if folder exists
-if (!file.exists("Week4")) { 
+if (!file.exists("UCI HAR Dataset")) { 
         unzip(filename) 
 }
 
